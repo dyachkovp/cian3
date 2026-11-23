@@ -20,7 +20,7 @@ export default function App() {
   return (
     <PrototypeProvider>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={import.meta.env.BASE_URL === '/' ? <HomePage /> : <AuctionPage />} />
         <Route path="/auction" element={<AuctionPage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/listing/:id" element={<DetailPage />} />
