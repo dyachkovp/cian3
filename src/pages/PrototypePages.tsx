@@ -375,6 +375,7 @@ export function PatternsPage() {
             <Link to="/">Header · Footer · SearchBar</Link>
             <Link to="/search">SearchFilters · Sorting · ListingCard</Link>
             <Link to="/listing/1">PageLayout · Gallery · ListingActions</Link>
+            <Link to="/auction">Аукцион · две роли · состояния</Link>
             <Link to="/ui">Базовые компоненты →</Link>
           </div>
           <h2>Карточка в выдаче</h2>

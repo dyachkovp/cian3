@@ -1,0 +1,966 @@
+.auctionApp {
+  max-width: 390px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--background-primary);
+  color: var(--text-primary-default);
+}
+.appHeader {
+  max-width: 1280px;
+  min-height: 88px;
+  padding: 20px 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.placeLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  min-height: 40px;
+  padding: 0 12px;
+  background: var(--surface-main-default);
+  color: var(--text-main-default);
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.creationHeader {
+  justify-content: center;
+}
+.backLink {
+  color: var(--text-main-default);
+  font-size: 14px;
+  text-decoration: none;
+}
+.homeSearch {
+  padding: 24px 20px;
+  border-radius: 24px;
+  background: var(--background-secondary);
+}
+.homeSearch h1 {
+  margin: 10px 0 24px;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+.searchEntry {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 12px;
+  background: var(--background-primary);
+  border-radius: 14px;
+  color: var(--text-primary-default);
+  font-size: 13px;
+  text-decoration: none;
+}
+.searchTags {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--text-secondary-default);
+}
+.searchTags span {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--background-primary);
+}
+.searchTags span:first-child {
+  color: var(--text-main-default);
+}
+.sectionHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0 20px;
+}
+.sectionHeading h2 {
+  font-size: 23px;
+  letter-spacing: -0.5px;
+}
+.sectionHeading a {
+  font-size: 12px;
+  color: var(--text-main-default);
+  text-decoration: none;
+}
+.homeListing {
+  display: block;
+  overflow: hidden;
+  border-radius: 24px;
+  color: inherit;
+  text-decoration: none;
+  background: var(--background-secondary);
+}
+.homeListingPhoto {
+  position: relative;
+}
+.homeListingPhoto img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.homeListingPhoto > span {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.homeListingBody {
+  padding: 20px;
+}
+.homeListingBody > strong {
+  font-size: 28px;
+  letter-spacing: -0.7px;
+}
+.homeListingBody p {
+  margin-top: 8px;
+  font-size: 13px;
+}
+.homeListingBody > span {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-secondary-default);
+}
+.auctionTeaser {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--stroke-divider-default);
+  color: var(--text-main-default);
+  font-size: 13px;
+  font-weight: 700;
+}
+.placementHeading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.placementHeading h1 {
+  font-size: 22px;
+  letter-spacing: -0.4px;
+}
+.placementHeading > a,
+.placementHeading > button {
+  display: grid;
+  place-items: center;
+  min-width: 40px;
+  min-height: 44px;
+  padding: 0;
+  color: var(--text-main-default);
+  font: inherit;
+  font-size: 30px;
+  border: 0;
+  background: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.placementProgress {
+  height: 4px;
+  background: var(--surface-main-default);
+  margin: 24px -20px 0;
+}
+.placementProgress span {
+  display: block;
+  height: 100%;
+  background: var(--control-main-primary-default);
+  border-radius: 4px;
+}
+.placementNote {
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--background-secondary);
+  margin: 24px 0 32px;
+  font-size: 15px;
+  line-height: 23px;
+}
+.placementNote span {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-secondary-default);
+}
+.placementStart > h2 {
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+.placementChoices {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-height: 240px;
+  align-content: start;
+}
+.placementChoices button {
+  border-radius: 10px;
+}
+.headerLabel {
+  padding-left: 28px;
+  border-left: 1px solid var(--stroke-divider-default);
+  color: var(--text-secondary-default);
+  font-size: 13px;
+}
+.demoBadge {
+  margin-left: auto;
+  color: var(--text-secondary-default);
+  font-size: 12px;
+}
+.page {
+  max-width: 1160px;
+  padding-top: 36px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+.eyebrow {
+  display: block;
+  color: var(--text-secondary-default);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+}
+.hero h1 {
+  max-width: 760px;
+  margin-top: 14px;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.06;
+  letter-spacing: -2px;
+}
+.hero p {
+  margin-top: 16px;
+  color: var(--text-secondary-default);
+  font-size: 15px;
+  line-height: 24px;
+}
+.roleSwitch {
+  display: inline-flex;
+  flex: none;
+  gap: 4px;
+  padding: 5px;
+  border-radius: 100px;
+  background: var(--background-secondary);
+}
+.roleSwitch a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border-radius: 100px;
+  color: var(--text-secondary-default);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.roleSwitch a[aria-current='page'] {
+  background: var(--control-main-primary-default);
+  color: var(--background-primary);
+}
+.sellerGrid,
+.buyerGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 40px;
+  align-items: start;
+}
+.formCard,
+.bidCard {
+  padding: 32px;
+  border-radius: 28px;
+  background: var(--background-secondary);
+}
+.formCard > button,
+.formCard form > button,
+.bidCard > button,
+.bidCard form > button,
+.formActions button,
+.inlineActions button,
+.ownerBody > button {
+  border-radius: 100px;
+}
+.stepTrack {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 32px;
+  color: var(--text-secondary-default);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+.stepTrack span {
+  border-top: 3px solid var(--stroke-divider-default);
+  padding-top: 10px;
+}
+.stepTrack .stepDone {
+  border-color: var(--control-main-primary-default);
+  color: var(--text-main-default);
+}
+.cardHeading h2,
+.bidCard h2 {
+  margin-top: 12px;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.8px;
+}
+.cardHeading p,
+.bidHint,
+.finished p,
+.successPanel > p {
+  margin-top: 10px;
+  color: var(--text-secondary-default);
+  font-size: 14px;
+  line-height: 22px;
+}
+.formFields {
+  display: grid;
+  gap: 24px;
+  margin: 32px 0;
+}
+.dateField {
+  display: grid;
+  gap: 8px;
+  color: var(--text-primary-default);
+  font-size: 14px;
+  font-weight: 700;
+}
+.dateField input {
+  width: 100%;
+  min-width: 0;
+  min-height: 56px;
+  padding: 0 16px;
+  border: 1px solid var(--stroke-control-default);
+  border-radius: 10px;
+  background: var(--background-primary);
+  color: var(--text-primary-default);
+  font: inherit;
+}
+.dateField input:focus-visible {
+  outline: 2px solid var(--stroke-control-focused);
+  outline-offset: 2px;
+}
+.dateField small {
+  color: var(--text-negative-default);
+  font-weight: 400;
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 28px 0 0;
+}
+.facts div {
+  min-width: 0;
+}
+.facts dt {
+  color: var(--text-secondary-default);
+  font-size: 11px;
+  line-height: 16px;
+}
+.facts dd {
+  margin: 6px 0 0;
+  color: var(--text-primary-default);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.formCard > .facts {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+.formCard > .facts div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--stroke-divider-default);
+}
+.formCard > .facts dd {
+  margin: 0;
+  text-align: right;
+}
+.notice {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  margin: 24px 0;
+  color: var(--text-secondary-default);
+  font-size: 12px;
+  line-height: 20px;
+}
+.notice > span {
+  flex: none;
+  color: var(--text-main-default);
+}
+.formActions,
+.inlineActions {
+  display: grid;
+  gap: 12px;
+}
+.previewCard {
+  overflow: hidden;
+  border-radius: 28px;
+  background: var(--background-secondary);
+}
+.previewCard > img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+.previewBody {
+  padding: 26px;
+}
+.previewBody h2 {
+  margin: 12px 0;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+.previewBody > p {
+  margin-top: 6px;
+  color: var(--text-secondary-default);
+  font-size: 12px;
+}
+.previewBody .facts {
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--stroke-divider-default);
+}
+.previewBody .facts > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.previewBody .facts dd {
+  margin: 0;
+  font-size: 12px;
+}
+.successPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 32px;
+  text-align: center;
+  background: var(--background-secondary);
+}
+.successPhoto {
+  width: 210px;
+  height: 140px;
+  border-radius: 24px;
+  object-fit: cover;
+  margin-bottom: -18px;
+}
+.successPanel h2 {
+  max-width: 500px;
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+.successPanel > p {
+  max-width: 470px;
+}
+.successPanel .facts {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.successIcon,
+.finishIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: var(--text-positive-default);
+  background: var(--surface-positive-default);
+}
+.successIcon {
+  z-index: 1;
+  margin-bottom: 16px;
+  border: 4px solid var(--background-secondary);
+}
+.inlineActions {
+  width: min(100%, 360px);
+  margin-top: 28px;
+}
+.photos > div {
+  margin: 0;
+}
+.photos > div > button > img {
+  height: 360px;
+  border-radius: 24px;
+}
+.photos > div > div > button {
+  border-radius: 12px;
+}
+.listingBody {
+  padding: 28px 0;
+}
+.listingBody h2 {
+  margin-top: 16px;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+.listingBadges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.listingBadges > span {
+  color: var(--text-secondary-default);
+  font-size: 12px;
+}
+.propertySpecs {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.propertyPrice {
+  display: block;
+  font-size: 36px;
+  letter-spacing: -1.2px;
+  margin-top: 20px;
+  line-height: 44px;
+}
+.pricePerMeter {
+  display: block;
+  color: var(--text-secondary-default);
+  font-size: 14px;
+  margin-top: 6px;
+}
+.propertyDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 24px 0;
+  gap: 12px;
+}
+.propertyDetails > div {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+}
+.propertyDetails dt {
+  color: var(--text-secondary-default);
+  font-size: 11px;
+}
+.propertyDetails dd {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+}
+.bidCard h2.auctionTitle {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 0 24px;
+}
+.address,
+.metro {
+  margin-top: 8px;
+  color: var(--text-secondary-default);
+  font-size: 13px;
+}
+.listingBody .facts {
+  padding: 22px;
+  border-radius: 20px;
+  background: var(--background-secondary);
+  gap: 16px;
+}
+.bidCard {
+  position: sticky;
+  top: 24px;
+}
+.currentPrice {
+  display: block;
+  margin-top: 12px;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  white-space: nowrap;
+}
+.bidSummary {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 14px;
+  margin: 28px 0;
+  padding: 24px 0;
+  border-block: 1px solid var(--stroke-divider-default);
+  font-size: 12px;
+}
+.bidSummary > span {
+  color: var(--text-secondary-default);
+}
+.bidSummary strong {
+  text-align: right;
+  font-weight: 600;
+}
+.bidCard > button,
+.bidCard form > button {
+  margin-top: 18px;
+}
+.bidFailed + form {
+  margin-top: 18px;
+}
+.bidAccepted,
+.bidFailed {
+  display: flex;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.bidAccepted > span,
+.bidFailed > span {
+  flex: none;
+}
+.bidAccepted {
+  color: var(--text-positive-default);
+  background: var(--surface-positive-default);
+}
+.bidFailed {
+  color: var(--text-negative-default);
+  background: var(--surface-negative-default);
+}
+.bidAccepted p,
+.bidFailed p {
+  margin-top: 4px;
+  color: var(--text-secondary-default);
+  font-size: 12px;
+}
+.smallPrint {
+  margin-top: 16px;
+  text-align: center;
+  color: var(--text-secondary-default);
+  font-size: 10px;
+  line-height: 17px;
+}
+.simulations {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--stroke-divider-default);
+  color: var(--text-secondary-default);
+  font-size: 11px;
+}
+.simulations summary {
+  cursor: pointer;
+  padding: 4px 0;
+}
+.simulations button {
+  display: block;
+  min-height: 36px;
+  margin-top: 6px;
+  padding: 4px 0;
+  border: 0;
+  color: var(--text-main-default);
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.simulations button:hover {
+  text-decoration: underline;
+}
+.finished {
+  text-align: center;
+}
+.finished h2 {
+  margin-top: 20px;
+}
+.finished button {
+  margin-top: 24px;
+  border-radius: 100px;
+}
+.ownerOverview {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  background: var(--background-secondary);
+  border-radius: 32px;
+  overflow: hidden;
+}
+.ownerPhoto {
+  position: relative;
+  min-height: 520px;
+}
+.ownerPhoto img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ownerPhoto > span {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.ownerBody {
+  padding: 40px;
+}
+.ownerBody h2 {
+  margin-top: 12px;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -1px;
+}
+.ownerBody > p {
+  margin-top: 10px;
+  color: var(--text-secondary-default);
+  font-size: 13px;
+}
+.ownerPrice {
+  display: block;
+  margin-top: 24px;
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+.ownerCallout {
+  display: flex;
+  gap: 16px;
+  margin: 28px 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--stroke-divider-default);
+}
+.calloutIcon {
+  display: flex;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface-main-default);
+  color: var(--text-main-default);
+  font-size: 24px;
+}
+.ownerCallout h3 {
+  font-size: 16px;
+  letter-spacing: -0.2px;
+}
+.ownerCallout p {
+  margin-top: 6px;
+  color: var(--text-secondary-default);
+  font-size: 12px;
+  line-height: 19px;
+}
+.ownerBody > button + button {
+  margin-top: 12px;
+}
+.pageFooter {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--stroke-divider-default);
+  color: var(--text-secondary-default);
+  font-size: 10px;
+}
+@media (max-width: 1000px) {
+  .sellerGrid,
+  .buyerGrid {
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 24px;
+  }
+  .currentPrice {
+    font-size: 34px;
+  }
+  .hero {
+    align-items: start;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    max-width: 400px;
+  }
+  .roleSwitch a {
+    padding: 0 14px;
+  }
+}
+@media (min-width: 0px) {
+  .appHeader {
+    min-height: 72px;
+    padding: 20px;
+  }
+  .headerLabel {
+    display: none;
+  }
+  .demoBadge {
+    font-size: 10px;
+  }
+  .page {
+    width: calc(100% - 40px);
+    padding-top: 24px;
+    padding-bottom: 108px;
+  }
+  .hero {
+    margin-bottom: 28px;
+    display: block;
+  }
+  .hero h1 {
+    margin-top: 12px;
+    max-width: 320px;
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: -1.5px;
+  }
+  .hero p {
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .roleSwitch {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: max(16px, env(safe-area-inset-bottom));
+    z-index: 30;
+    width: min(calc(100% - 40px), 350px);
+    border: 1px solid var(--stroke-divider-default);
+    box-shadow: 0 8px 32px #15212e26;
+    background: var(--background-primary);
+  }
+  .roleSwitch a {
+    flex: 1;
+    min-height: 46px;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 4px;
+    font-size: 10px;
+  }
+  .sellerGrid,
+  .buyerGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .formCard,
+  .bidCard {
+    padding: 24px;
+    border-radius: 24px;
+  }
+  .previewCard {
+    order: -1;
+    border-radius: 24px;
+  }
+  .previewCard > img {
+    height: 160px;
+  }
+  .previewBody {
+    padding: 20px;
+  }
+  .previewBody h2,
+  .previewBody .facts {
+    display: none;
+  }
+  .previewBody > p {
+    font-size: 12px;
+  }
+  .stepTrack {
+    gap: 8px;
+    font-size: 9px;
+    margin-bottom: 24px;
+  }
+  .cardHeading h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .formFields {
+    margin: 28px 0;
+    gap: 22px;
+  }
+  .photos > div > button > img {
+    height: 320px;
+    border-radius: 24px;
+  }
+  .photos > div > div {
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .photos > div > div img {
+    height: 48px;
+  }
+  .photos > div > div > button {
+    width: 72px;
+    border-radius: 10px;
+  }
+  .listingBody {
+    padding: 24px 0 0;
+  }
+  .listingBody h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .propertySpecs {
+    font-size: 13px;
+  }
+  .listingBody .facts {
+    padding: 18px;
+    gap: 12px;
+  }
+  .facts dt {
+    font-size: 10px;
+  }
+  .facts dd {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .bidCard {
+    position: static;
+  }
+  .currentPrice {
+    font-size: 38px;
+  }
+  .successPanel {
+    padding: 28px 22px;
+  }
+  .successPanel h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .successPanel .facts {
+    gap: 12px;
+  }
+  .ownerOverview {
+    grid-template-columns: 1fr;
+    border-radius: 24px;
+  }
+  .ownerPhoto {
+    min-height: 240px;
+  }
+  .ownerBody {
+    padding: 26px 24px;
+  }
+  .ownerBody h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .ownerPrice {
+    font-size: 30px;
+  }
+  .pageFooter {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 32px;
+    padding-top: 20px;
+  }
+}
