@@ -1,0 +1,6 @@
+.container {
+  transition: color 0.3s ease-out;
+}
+.cursor_pointer {
+  cursor: pointer;
+}

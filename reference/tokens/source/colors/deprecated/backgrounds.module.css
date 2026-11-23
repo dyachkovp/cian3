@@ -1,0 +1,74 @@
+/* stylelint-disable */
+@import './variables.module.css';
+
+.background_secondary_button_10 { background: var(--secondary_button_10); }
+.background_superblack_40 { background: var(--superblack_40); }
+.background_superblack_60 { background: var(--superblack_60); }
+.background_superblack_10 { background: var(--superblack_10); }
+.background_superblack_100 { background: var(--superblack_100); }
+.background_superblack_20 { background: var(--superblack_20); }
+.background_superblack_6 { background: var(--superblack_6); }
+.background_success_100 { background: var(--success_100); }
+.background_success_10 { background: var(--success_10); }
+.background_error_100 { background: var(--error_100); }
+.background_error_10 { background: var(--error_10); }
+.background_sokolniki_100 { background: var(--sokolniki_100); }
+.background_fill_primary_active_100 { background: var(--fill_primary_active_100); }
+.background_purple_label_80 { background: var(--purple_label_80); }
+.background_zamoskvoreckaya_100 { background: var(--zamoskvoreckaya_100); }
+.background_fill_error_primary_active_100 { background: var(--fill_error_primary_active_100); }
+.background_arbatskaya_100 { background: var(--arbatskaya_100); }
+.background_fill_success_secondary_active_20 { background: var(--fill_success_secondary_active_20); }
+.background_filevskaya_100 { background: var(--filevskaya_100); }
+.background_kolcevaia_100 { background: var(--kolcevaia_100); }
+.background_fill_primary_hover_100 { background: var(--fill_primary_hover_100); }
+.background_purple_label_100 { background: var(--purple_label_100); }
+.background_rijckaya_100 { background: var(--rijckaya_100); }
+.background_fill_secondary_active_30 { background: var(--fill_secondary_active_30); }
+.background_taganskaya_100 { background: var(--taganskaya_100); }
+.background_fill_success_primary__active_100 { background: var(--fill_success_primary__active_100); }
+.background_colncevo_100 { background: var(--colncevo_100); }
+.background_fill_success_primary__hover_100 { background: var(--fill_success_primary__hover_100); }
+.background_temirazevskaya_100 { background: var(--temirazevskaya_100); }
+.background_fill_error_secondary__active_20 { background: var(--fill_error_secondary__active_20); }
+.background_lublino_100 { background: var(--lublino_100); }
+.background_fill_error_secondary_hover_16 { background: var(--fill_error_secondary_hover_16); }
+.background_big_kolcevaya_100 { background: var(--big_kolcevaya_100); }
+.background_fill_error_primary_hover_100_ { background: var(--fill_error_primary_hover_100_); }
+.background_butovo_100 { background: var(--butovo_100); }
+.background_monorels_100 { background: var(--monorels_100); }
+.background_fill_success_secondary_hover_16 { background: var(--fill_success_secondary_hover_16); }
+.background_mck_100 { background: var(--mck_100); }
+.background_fill_secondary_hover_20 { background: var(--fill_secondary_hover_20); }
+.background_purple_label_10 { background: var(--purple_label_10); }
+.background_kommynarskaya_100 { background: var(--kommynarskaya_100); }
+.background_gray_icons_100 { background: var(--gray_icons_100); }
+.background_black_icons_60 { background: var(--black_icons_60); }
+.background_black_control_80 { background: var(--black_control_80); }
+.background_white_icons_60 { background: var(--white_icons_60); }
+.background_warning_100 { background: var(--warning_100); }
+.background_warning15_100 { background: var(--warning15_100); }
+.background_focused_15 { background: var(--focused_15); }
+.background_black_100 { background: var(--black_100); }
+.background_primary_100 { background: var(--primary_100); }
+.background_primary_10 { background: var(--primary_10); }
+.background_gray60_100 { background: var(--gray60_100); }
+.background_gray40_100 { background: var(--gray40_100); }
+.background_gray20_100 { background: var(--gray20_100); }
+.background_gray10_100 { background: var(--gray10_100); }
+.background_gray6_100 { background: var(--gray6_100); }
+.background_black_60 { background: var(--black_60); }
+.background_black_40 { background: var(--black_40); }
+.background_black_20 { background: var(--black_20); }
+.background_black_10 { background: var(--black_10); }
+.background_black_6 { background: var(--black_6); }
+.background_white_100 { background: var(--white_100); }
+.background_white_60 { background: var(--white_60); }
+.background_white_40 { background: var(--white_40); }
+.background_white_10 { background: var(--white_10); }
+.background_white_20 { background: var(--white_20); }
+.background_white_6 { background: var(--white_6); }
+.background_fill_white_secondary_30 { background: var(--fill_white_secondary_30); }
+.background_current_color { /** В Edge не работает через переменную */
+background: currentColor; }
+

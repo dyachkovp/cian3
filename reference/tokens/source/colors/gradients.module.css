@@ -1,0 +1,15 @@
+/* stylelint-disable */
+@import './gradientsPalette.css';
+
+.gradient_skeleton-primary { background: var(--skeleton-primary); }
+.gradient_brand-public-primary { background: var(--brand-public-primary); }
+.gradient_brand-public-secondary { background: var(--brand-public-secondary); }
+.gradient_brand-b2b-primary { background: var(--brand-b2b-primary); }
+.gradient_brand-b2b-secondary { background: var(--brand-b2b-secondary); }
+.gradient_brand-mortgage-primary { background: var(--brand-mortgage-primary); }
+.gradient_brand-mortgage-secondary { background: var(--brand-mortgage-secondary); }
+.gradient_brand-owner-primary { background: var(--brand-owner-primary); }
+.gradient_brand-owner-secondary { background: var(--brand-owner-secondary); }
+.gradient_brand-commercial-primary { background: var(--brand-commercial-primary); }
+.gradient_brand-commercial-secondary { background: var(--brand-commercial-secondary); }
+.gradient_brand-commercial-tertiary { background: var(--brand-commercial-tertiary); }

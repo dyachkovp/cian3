@@ -1,0 +1,16 @@
+@import './commonPalette.css';
+
+:root {
+  --skeleton-primary: linear-gradient(270deg, var(--surface-neutral-default) 0%, var(--surface-neutral-default) 20%, var(--surface-inverted-default) 50%, var(--surface-neutral-default) 80%, var(--surface-neutral-default) 100%);
+  --brand-public-primary: linear-gradient(270deg, var(--brand_lapis) 0%, var(--brand_pink) 100%);
+  --brand-public-secondary: linear-gradient(270deg, var(--brand_cyan) 0%, var(--brand_pink) 100%);
+  --brand-b2b-primary: linear-gradient(270deg, var(--brand_sand) 0%, var(--brand_peach) 20%, var(--brand_pink) 40%, var(--brand_lapis) 60%, var(--brand_navy) 80%, var(--solid-black) 100%);
+  --brand-b2b-secondary: linear-gradient(270deg, var(--brand_navy) 0%, var(--brand_lapis) 20%, var(--brand_pink) 40%, var(--brand_peach) 60%, var(--brand_sand) 80%, var(--solid-white) 100%);
+  --brand-mortgage-primary: linear-gradient(270deg, var(--brand_lapis) 0%, var(--brand_sky) 50%, var(--brand_peach) 100%);
+  --brand-mortgage-secondary: linear-gradient(270deg, var(--brand_cyan) 0%, var(--brand_peach) 100%);
+  --brand-owner-primary: linear-gradient(270deg, var(--brand_lapis) 0%, var(--brand_denim) 50%, var(--brand_sand) 100%);
+  --brand-owner-secondary: linear-gradient(270deg, var(--brand_cyan) 0%, var(--brand_sand) 100%);
+  --brand-commercial-primary: linear-gradient(270deg, var(--brand_peach) 0%, var(--brand_sand) 50%, var(--brand_pink) 100%);
+  --brand-commercial-secondary: linear-gradient(270deg, var(--brand_lapis) 0%, var(--solid-white) 100%);
+  --brand-commercial-tertiary: linear-gradient(270deg, var(--solid-black) 0%, var(--brand_lapis) 100%);
+}

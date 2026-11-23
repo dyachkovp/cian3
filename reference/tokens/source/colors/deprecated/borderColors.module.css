@@ -1,0 +1,74 @@
+/* stylelint-disable */
+@import './variables.module.css';
+
+.borderColor_secondary_button_10 { border-color: var(--secondary_button_10); }
+.borderColor_superblack_40 { border-color: var(--superblack_40); }
+.borderColor_superblack_60 { border-color: var(--superblack_60); }
+.borderColor_superblack_10 { border-color: var(--superblack_10); }
+.borderColor_superblack_100 { border-color: var(--superblack_100); }
+.borderColor_superblack_20 { border-color: var(--superblack_20); }
+.borderColor_superblack_6 { border-color: var(--superblack_6); }
+.borderColor_success_100 { border-color: var(--success_100); }
+.borderColor_success_10 { border-color: var(--success_10); }
+.borderColor_error_100 { border-color: var(--error_100); }
+.borderColor_error_10 { border-color: var(--error_10); }
+.borderColor_sokolniki_100 { border-color: var(--sokolniki_100); }
+.borderColor_fill_primary_active_100 { border-color: var(--fill_primary_active_100); }
+.borderColor_purple_label_80 { border-color: var(--purple_label_80); }
+.borderColor_zamoskvoreckaya_100 { border-color: var(--zamoskvoreckaya_100); }
+.borderColor_fill_error_primary_active_100 { border-color: var(--fill_error_primary_active_100); }
+.borderColor_arbatskaya_100 { border-color: var(--arbatskaya_100); }
+.borderColor_fill_success_secondary_active_20 { border-color: var(--fill_success_secondary_active_20); }
+.borderColor_filevskaya_100 { border-color: var(--filevskaya_100); }
+.borderColor_kolcevaia_100 { border-color: var(--kolcevaia_100); }
+.borderColor_fill_primary_hover_100 { border-color: var(--fill_primary_hover_100); }
+.borderColor_purple_label_100 { border-color: var(--purple_label_100); }
+.borderColor_rijckaya_100 { border-color: var(--rijckaya_100); }
+.borderColor_fill_secondary_active_30 { border-color: var(--fill_secondary_active_30); }
+.borderColor_taganskaya_100 { border-color: var(--taganskaya_100); }
+.borderColor_fill_success_primary__active_100 { border-color: var(--fill_success_primary__active_100); }
+.borderColor_colncevo_100 { border-color: var(--colncevo_100); }
+.borderColor_fill_success_primary__hover_100 { border-color: var(--fill_success_primary__hover_100); }
+.borderColor_temirazevskaya_100 { border-color: var(--temirazevskaya_100); }
+.borderColor_fill_error_secondary__active_20 { border-color: var(--fill_error_secondary__active_20); }
+.borderColor_lublino_100 { border-color: var(--lublino_100); }
+.borderColor_fill_error_secondary_hover_16 { border-color: var(--fill_error_secondary_hover_16); }
+.borderColor_big_kolcevaya_100 { border-color: var(--big_kolcevaya_100); }
+.borderColor_fill_error_primary_hover_100_ { border-color: var(--fill_error_primary_hover_100_); }
+.borderColor_butovo_100 { border-color: var(--butovo_100); }
+.borderColor_monorels_100 { border-color: var(--monorels_100); }
+.borderColor_fill_success_secondary_hover_16 { border-color: var(--fill_success_secondary_hover_16); }
+.borderColor_mck_100 { border-color: var(--mck_100); }
+.borderColor_fill_secondary_hover_20 { border-color: var(--fill_secondary_hover_20); }
+.borderColor_purple_label_10 { border-color: var(--purple_label_10); }
+.borderColor_kommynarskaya_100 { border-color: var(--kommynarskaya_100); }
+.borderColor_gray_icons_100 { border-color: var(--gray_icons_100); }
+.borderColor_black_icons_60 { border-color: var(--black_icons_60); }
+.borderColor_black_control_80 { border-color: var(--black_control_80); }
+.borderColor_white_icons_60 { border-color: var(--white_icons_60); }
+.borderColor_warning_100 { border-color: var(--warning_100); }
+.borderColor_warning15_100 { border-color: var(--warning15_100); }
+.borderColor_focused_15 { border-color: var(--focused_15); }
+.borderColor_black_100 { border-color: var(--black_100); }
+.borderColor_primary_100 { border-color: var(--primary_100); }
+.borderColor_primary_10 { border-color: var(--primary_10); }
+.borderColor_gray60_100 { border-color: var(--gray60_100); }
+.borderColor_gray40_100 { border-color: var(--gray40_100); }
+.borderColor_gray20_100 { border-color: var(--gray20_100); }
+.borderColor_gray10_100 { border-color: var(--gray10_100); }
+.borderColor_gray6_100 { border-color: var(--gray6_100); }
+.borderColor_black_60 { border-color: var(--black_60); }
+.borderColor_black_40 { border-color: var(--black_40); }
+.borderColor_black_20 { border-color: var(--black_20); }
+.borderColor_black_10 { border-color: var(--black_10); }
+.borderColor_black_6 { border-color: var(--black_6); }
+.borderColor_white_100 { border-color: var(--white_100); }
+.borderColor_white_60 { border-color: var(--white_60); }
+.borderColor_white_40 { border-color: var(--white_40); }
+.borderColor_white_10 { border-color: var(--white_10); }
+.borderColor_white_20 { border-color: var(--white_20); }
+.borderColor_white_6 { border-color: var(--white_6); }
+.borderColor_fill_white_secondary_30 { border-color: var(--fill_white_secondary_30); }
+.borderColor_current_color { /** В Edge не работает через переменную */
+border-color: currentColor; }
+

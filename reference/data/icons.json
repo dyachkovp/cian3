@@ -1,0 +1,194 @@
+[
+  {
+    "name": "ActionClose12",
+    "size": 12,
+    "category": "action",
+    "path": "tokens/icons/ActionClose12.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/12/ActionClose.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\"><path fill=\"currentColor\" d=\"M10.96 2.457 7.415 6.003l3.54 3.54-1.414 1.414L6 7.417l-3.54 3.54-1.413-1.414 3.539-3.54-3.547-3.546 1.415-1.414L6 4.589l3.547-3.546z\"/></svg>"
+  },
+  {
+    "name": "ActionClose16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionClose16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionClose.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M14.207 3.207 9.414 8l4.793 4.793-1.414 1.414L8 9.414l-4.793 4.793-1.414-1.414L6.586 8 1.793 3.207l1.414-1.414L8 6.586l4.793-4.793z\"/></svg>"
+  },
+  {
+    "name": "FunctionalInformationCircle16",
+    "size": 16,
+    "category": "functional",
+    "path": "tokens/icons/FunctionalInformationCircle16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/functional/16/FunctionalInformationCircle.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M0 8c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8-8-3.6-8-8m9-3a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-2 7V7h2v5z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionArrowUpRight16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionArrowUpRight16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionArrowUpRight.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M7 4h3.586L2 12.586 3.414 14 12 5.414V9h2V2H7z\"/></svg>"
+  },
+  {
+    "name": "ActionMinus12",
+    "size": 12,
+    "category": "action",
+    "path": "tokens/icons/ActionMinus12.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/12/ActionMinus.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\"><path fill=\"currentColor\" d=\"M1 5h10v2H1z\"/></svg>"
+  },
+  {
+    "name": "ActionPlus16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionPlus16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionPlus.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M9 7V2H7v5H2v2h5v5h2V9h5V7z\"/></svg>"
+  },
+  {
+    "name": "FunctionalSuccess16",
+    "size": 16,
+    "category": "functional",
+    "path": "tokens/icons/FunctionalSuccess16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/functional/16/FunctionalSuccess.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M14.207 4.854 6.5 12.56 1.793 7.854l1.414-1.415L6.5 9.732l6.293-6.293z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionChevronDownSmall16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionChevronDownSmall16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionChevronDownSmall.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m12.707 6.354-1.414-1.415L8 8.232 4.707 4.94 3.293 6.354 8 11.06z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionSearch16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionSearch16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionSearch.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M7.146.646a6.5 6.5 0 1 0 3.835 11.75l2.958 2.958 1.415-1.415-2.959-2.958A6.5 6.5 0 0 0 7.146.646m-4.5 6.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionChevronLeft16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionChevronLeft16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionChevronLeft.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M3.44 8 11.146.293l1.414 1.414L6.268 8l6.293 6.293-1.414 1.414z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionChevronRight16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionChevronRight16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionChevronRight.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M12.56 8 4.853.293 3.44 1.707 9.732 8 3.44 14.293l1.414 1.414z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "PlaceholderImages40",
+    "size": 40,
+    "category": "placeholder",
+    "path": "tokens/icons/PlaceholderImages40.svg",
+    "source": "@cian/ui-kit-design-tokens/pictograms/placeholder/40/PlaceholderImages.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M22.677 1.617a3 3 0 0 0-3.674 2.121l-1.155 4.311a4.5 4.5 0 0 1 1.98.34l1.107-4.133a1 1 0 0 1 1.225-.708l13.523 3.624a1 1 0 0 1 .707 1.225l-5.177 19.318a1 1 0 0 1-1.224.707l-3.206-.859.597 2.231 2.091.56a3 3 0 0 0 3.674-2.121l5.177-19.319A3 3 0 0 0 36.2 5.24zM3.8 13.269a3 3 0 0 0-2.121 3.674l5.176 19.319a3 3 0 0 0 3.674 2.121l13.523-3.623a3 3 0 0 0 2.122-3.674l-5.177-19.319a3 3 0 0 0-3.674-2.121zm-.19 3.157a1 1 0 0 1 .708-1.225l13.523-3.623a1 1 0 0 1 1.224.707l2.567 9.58-4.863-2.131-2.96 6.557-3.575-1.184-3.057 4.627zm4.258 15.888.919 3.43a1 1 0 0 0 1.225.707l13.523-3.623a1 1 0 0 0 .707-1.225l-1.946-7.262-4.52-1.98-2.887 6.397-3.833-1.27zm.641-13.06a1 1 0 1 1 1.932-.517 1 1 0 0 1-1.932.517m.19-3.156a3 3 0 1 0 1.553 5.795 3 3 0 0 0-1.553-5.795\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "PlaceholderUser16",
+    "size": 16,
+    "category": "placeholder",
+    "path": "tokens/icons/PlaceholderUser16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/placeholder/16/PlaceholderUser.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M8 7.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6m7 4.763c0-.837-.336-1.66-1.045-2.104C12.29 9.116 10.012 8.5 8 8.5s-4.29.616-5.955 1.66C1.336 10.603 1 11.425 1 12.261V14.5h14z\"/></svg>"
+  },
+  {
+    "name": "PlaceholderBuilder16",
+    "size": 16,
+    "category": "placeholder",
+    "path": "tokens/icons/PlaceholderBuilder16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/placeholder/16/PlaceholderBuilder.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M14 6a6 6 0 0 0-1.839-4.322L11.5 3H10V.343a6 6 0 0 0-4 0V3H4.5l-.661-1.322A6 6 0 0 0 2 6H1v2h14V6zm-6 8c-1.136 0-2.113-.56-2.836-1.489C4.434 11.571 4 10.291 4 9H2c0 1.71.567 3.429 1.586 4.739C4.613 15.059 6.136 16 8 16s3.387-.94 4.414-2.261C13.434 12.429 14 10.709 14 9h-2c0 1.29-.433 2.571-1.164 3.511C10.113 13.441 9.136 14 8 14\"/></svg>"
+  },
+  {
+    "name": "PlaceholderAgency16",
+    "size": 16,
+    "category": "placeholder",
+    "path": "tokens/icons/PlaceholderAgency16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/placeholder/16/PlaceholderAgency.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M15 3v12h-3v-3h-2v3H7V1zM5 15V5L1 6v9z\"/></svg>"
+  },
+  {
+    "name": "InfrastructureBank16",
+    "size": 16,
+    "category": "infrastructure",
+    "path": "tokens/icons/InfrastructureBank16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/infrastructure/16/InfrastructureBank.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"M1 4.667 8 0l7 4.667V6h-1v6h-2V6H9v6H7V6H4v6H2V6H1zM15 16v-2H1v2z\"/></svg>"
+  },
+  {
+    "name": "PlaceholderImage16",
+    "size": 16,
+    "category": "placeholder",
+    "path": "tokens/icons/PlaceholderImage16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/placeholder/16/PlaceholderImage.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm6 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m6 8.5L9.233 6.933l-2.553 3.25-1.213-1.516L2 13z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionChevronUpSmall16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionChevronUpSmall16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionChevronUpSmall.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m12.707 9.646-1.414 1.415L8 7.768 4.707 11.06 3.293 9.646 8 4.94z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionChevronRight12",
+    "size": 12,
+    "category": "action",
+    "path": "tokens/icons/ActionChevronRight12.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/12/ActionChevronRight.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M3.854.293 9.56 6l-5.707 5.707-1.415-1.414L6.732 6 2.44 1.707z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "MapLocation16",
+    "size": 16,
+    "category": "map",
+    "path": "tokens/icons/MapLocation16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/map/16/MapLocation.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M11.483 14.378 14.97 2.164a.926.926 0 0 0-1.133-1.134L1.634 4.52c-.785.261-.872 1.308-.087 1.657L7.299 8.62l2.441 5.758c.436.872 1.482.785 1.743 0\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "ActionMap16",
+    "size": 16,
+    "category": "action",
+    "path": "tokens/icons/ActionMap16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/16/ActionMap.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"m6.05.379 4.045 2.24L16 .593v12.348l-6.05 2.68-4.045-2.24L0 15.406V3.058zM2 4.37v8.223l3-1.029V3.042zm7 8.427L7 11.69V3.202L9 4.31zm2 .16 3-1.329V3.406l-3 1.029z\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "MapHighway16",
+    "size": 16,
+    "category": "map",
+    "path": "tokens/icons/MapHighway16.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/map/16/MapHighway.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path fill=\"currentColor\" d=\"m1.051 13.684 4-12 1.898.632-4 12zm13.898 0-4-12-1.898.632 4 12zM9 5H7v2h2zM7 8h2v2H7zm2 3H7v2h2z\"/></svg>"
+  },
+  {
+    "name": "ActionProfile24",
+    "size": 24,
+    "category": "action",
+    "path": "tokens/icons/ActionProfile24.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/action/24/ActionProfile.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M18 6.5a6 6 0 1 1-12 0 6 6 0 0 1 12 0m-2 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0m5.87 9.679c.749.475 1.13 1.333 1.13 2.219V23.5H1v-5.102c0-.886.381-1.745 1.13-2.219C4.774 14.503 8.626 13.5 12 13.5s7.226 1.002 9.87 2.679M21 18.398V21.5H3v-3.102c0-.349.145-.495.2-.53C5.48 16.424 8.947 15.5 12 15.5s6.521.924 8.8 2.368c.055.035.2.181.2.53\" clip-rule=\"evenodd\"/></svg>"
+  },
+  {
+    "name": "FunctionalCalendar24",
+    "size": 24,
+    "category": "functional",
+    "path": "tokens/icons/FunctionalCalendar24.svg",
+    "source": "@cian/ui-kit-design-tokens/icons/functional/24/FunctionalCalendar.js",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M5 1.5h3v3h8v-3h3v3h1a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-14a2 2 0 0 1 2-2h1zm-1 8h16v11H4zm8 2H6v4h6z\" clip-rule=\"evenodd\"/></svg>"
+  }
+]

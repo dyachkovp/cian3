@@ -1,0 +1,54 @@
+/* @cian/ui-kit/units/variables.module.css */
+/* stylelint-disable */
+
+:root {
+  --unit_0: 2px;
+  --unit_1: 4px;
+  --unit_2: 8px;
+  --unit_3: 12px;
+  --unit_4: 16px;
+  --unit_5: 20px;
+  --unit_6: 24px;
+  --unit_7: 28px;
+  --unit_8: 32px;
+  --unit_9: 36px;
+  --unit_10: 40px;
+  --unit_11: 44px;
+  --unit_12: 48px;
+  --unit_13: 56px;
+}
+
+/* @cian/ui-kit/typography/variables.module.css */
+/* stylelint-disable */
+
+:root {
+  --fontSize_0: 0;
+  --fontSize_10px: 10px;
+  --fontSize_12px: 12px;
+  --fontSize_14px: 14px;
+  --fontSize_16px: 16px;
+  --fontSize_18px: 18px;
+  --fontSize_22px: 22px;
+  --fontSize_28px: 28px;
+  --fontSize_38px: 38px;
+
+  --lineHeight_0: 0;
+  --lineHeight_10px: 10px;
+  --lineHeight_12px: 12px;
+  --lineHeight_14px: 14px;
+  --lineHeight_16px: 16px;
+  --lineHeight_18px: 18px;
+  --lineHeight_20px: 20px;
+  --lineHeight_22px: 22px;
+  --lineHeight_24px: 24px;
+  --lineHeight_28px: 28px;
+  --lineHeight_36px: 36px;
+  --lineHeight_38px: 38px;
+  --lineHeight_40px: 40px;
+  --lineHeight_46px: 46px;
+}
+
+/* @cian/ui-kit/internal/styles/common.module.css */
+:root {
+  --transition-option: 0.3s ease-out;
+}

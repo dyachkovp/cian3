@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru" class="design-theme--light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Исследовательский справочник по компонентам и дизайн-токенам Циана для подготовки нативных продуктовых предложений.">
+  <title>Циан — UI kit и design tokens</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23006cfd'/%3E%3Cpath d='M9 10v12h14v-4h-4v-8h-3v9h-4v-9z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="tokens/tokens.css">
+  <link rel="stylesheet" href="tokens/foundations.css">
+  <link rel="stylesheet" href="tokens/legacy.css">
+  <link rel="stylesheet" href="data/ui-kit.css">
+  <link rel="stylesheet" href="reference.css">
+  <script src="reference.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="topbar">
+    <a class="brand" href="#overview"><span class="brand-symbol" aria-hidden="true">ц</span><strong>Циан</strong><span class="brand-divider"></span><span>UI reference</span></a>
+    <div class="header-actions">
+      <span class="snapshot-date">Снимок 12.11.2026</span>
+      <button class="quiet-button" id="theme-toggle" type="button" aria-pressed="false">Тёмная тема</button>
+      <a class="primary-link download-header" href="tokens/cian-design-tokens.zip" download>Скачать токены <span aria-hidden="true">↓</span></a>
+      <button class="quiet-button menu-toggle" type="button" aria-controls="sidebar" aria-expanded="false">Разделы</button>
+    </div>
+  </header>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">Справочник</div>
+    <nav aria-label="Разделы справочника">
+      <a href="#overview" class="active" aria-current="location">Обзор</a>
+      <a href="#components">Компоненты <span>9</span></a>
+      <a href="#typography">Типографика</a>
+      <a href="#spacing">Отступы и размеры</a>
+      <a href="#tokens">Design tokens <span data-token-count>…</span></a>
+      <a href="#icons">Иконки <span data-icon-count>…</span></a>
+      <a href="#usage">Как использовать</a>
+      <a href="#sources">Исходники и метод</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="status-dot"></span> На основе кода сайта<p>Рабочий справочник для проектирования. Неофициальная документация.</p><a href="../">На основной сайт</a></div>
+  </aside>
+  <main id="main">
+    <section id="overview" class="hero">
+      <div class="breadcrumb">Исследование интерфейса <span>/</span> Циан</div>
+      <h1>интерфейс Циана</h1>
+      <p class="lead">Компоненты, цвета и правила, чтобы новые идеи<br class="desktop-break"> выглядели естественным продолжением сайта.</p>
+      <div class="hero-actions"><a class="primary-link" href="#components">Открыть компоненты</a><a class="secondary-link" href="#tokens">Посмотреть токены</a></div>
+      <div class="snapshot-note"><span class="note-icon" aria-hidden="true">i</span><div>Извлечено из публичной production-сборки.<br><span>Точные CSS и значения токенов. Интерактивные примеры собраны на HTML; поведение сложных React-компонентов показано упрощённо.</span></div><a href="#sources">Метод и источники</a></div>
+      <div class="section-heading compact"><h2>Визуальная основа</h2><span>Lato · светлая и тёмная темы</span></div>
+      <div class="palette-overview" id="palette-overview" aria-label="Основные цвета"></div>
+      <p class="caption">Нажмите на цвет, чтобы скопировать CSS-переменную. Все образцы используют реальные токены.</p>
+    </section>
+
+    <section id="components">
+      <div class="section-heading"><div><h2>Компоненты</h2><p>Попробуйте состояния и размеры. CSS примеров взят из сборки Циана.</p></div><span class="section-tag">Интерактивные примеры</span></div>
+      <article class="specimen" id="button-specimen">
+        <div class="specimen-heading"><div><h3>Кнопки</h3><span class="package-path">Button</span></div><button class="text-button" data-source="@cian/ui-kit/button/components/Button/button.js">Исходник</button></div>
+        <div class="playground-toolbar"><label>Тема <select id="button-theme" aria-label="Тема кнопки"></select></label><label>Размер <select id="button-size" aria-label="Размер кнопки"><option value="XS">XS · 36 px</option><option value="M" selected>M · 44 px</option><option value="L">L · 56 px</option></select></label></div>
+        <div class="button-playground" id="button-playground"></div>
+        <div class="code-bar"><code id="button-code"></code><button class="copy-button" data-copy-target="button-code">Копировать</button></div>
+        <div class="specimen-notes"><span>Радиус 8 px</span><span>Начертание 700</span><span>Hover / pressed / focus / disabled</span></div>
+      </article>
+      <div class="specimen-grid">
+        <article class="specimen"><div class="specimen-heading"><div><h3>Поля ввода</h3><span class="package-path">Input · InputWrapper</span></div><button class="text-button" data-source="@cian/ui-kit/input/components/Input/input.js">Исходник</button></div><div class="fields-demo" id="fields-demo"></div><div class="specimen-footer">XS 36 · M 44 · L 56 px. Ошибка — отдельный текст и обводка.</div></article>
+        <article class="specimen"><div class="specimen-heading"><div><h3>Выбор параметров</h3><span class="package-path">Checkbox · RadioButton</span></div><button class="text-button" data-source="@cian/ui-kit/checkbox/components/Checkbox/Checkbox.js">Исходник</button></div><div class="controls-demo" id="controls-demo"></div><div class="specimen-footer">Checkbox: 20 × 20 px, радиус 4 px. Управление с клавиатуры.</div></article>
+      </div>
+      <div class="specimen-grid">
+        <article class="specimen"><div class="specimen-heading"><div><h3>Метки и статусы</h3><span class="package-path">Label</span></div><button class="text-button" data-source="@cian/ui-kit/label/components/Label/Label.js">Исходник</button></div><div class="labels-demo" id="labels-demo"></div><div class="specimen-footer">24 px по высоте · 14/20 px · радиус 48 px.</div></article>
+        <article class="specimen"><div class="specimen-heading"><div><h3>Загрузка</h3><span class="package-path">Skeleton · Spinner</span></div><button class="text-button" data-source="@cian/ui-kit/skeleton/components/Skeleton/styles.module.css">Исходник</button></div><div class="loading-demo" id="loading-demo"></div><div class="specimen-footer">Анимация учитывает prefers-reduced-motion.</div></article>
+      </div>
+      <article class="specimen"><div class="specimen-heading"><div><h3>Всплывающие элементы</h3><span class="package-path">Tooltip · ModalWindow</span></div><button class="text-button" data-source="@cian/ui-kit/modal/components/ModalWindow/ModalWindow.js">Исходник</button></div><div class="overlay-demo"><div id="open-modal-button"></div><div class="tooltip-anchor"><button class="quiet-button" aria-describedby="sample-tooltip">Подсказка к фильтру <span aria-hidden="true">ⓘ</span></button><span role="tooltip" id="sample-tooltip">Показывать квартиры без посредников</span></div><p>Демо поведения: открытие, Escape и возврат фокуса. Полная логика доступна в исходниках.</p></div></article>
+    </section>
+
+    <section id="typography"><div class="section-heading"><div><h2>Типографика</h2><p>Lato, Arial, sans-serif. На этой странице подключены те же файлы Lato, что и на сайте.</p></div><button class="text-button" data-source="@cian/ui-kit/internal/typography/makeUIHeading/makeUIHeading.js">Исходник шкалы</button></div><div class="type-specimens" id="type-specimens"></div><p class="caption">UIHeading по умолчанию рендерит span. В продукте задавайте семантический тег через as. UIText1/2/3 помечены deprecated: используйте Body1, Body2, Caption.</p></section>
+
+    <section id="spacing"><div class="section-heading"><div><h2>Отступы и размеры</h2><p>Базовый шаг — 4 px, дополнительный полушаг — 2 px. Имена сохранены из UI kit.</p></div><button class="text-button" data-source="@cian/ui-kit/units/variables.module.css">Исходник</button></div><div class="spacing-grid" id="spacing-grid"></div><div class="measurements"><div><strong>8 px</strong><span>Кнопки и поля ввода</span></div><div><strong>4 px</strong><span>Чекбокс и Skeleton</span></div><div><strong>2 px</strong><span>Кольцо keyboard focus</span></div><div><strong>0.3 s</strong><span>Основной переход ease-out</span></div></div><p class="caption">Радиусы и обводки прочитаны из CSS компонентов. Это не отдельная универсальная шкала токенов радиуса.</p></section>
+
+    <section id="tokens"><div class="section-heading"><div><h2>Design tokens</h2><p>Исходное имя, ссылка на палитру и итоговое значение для выбранной темы.</p></div><div class="inline-actions"><a href="tokens/tokens.json" download>JSON ↓</a><a href="tokens/tokens.css" download>CSS ↓</a><a href="tokens/cian-design-tokens.zip" download>Весь набор ↓</a></div></div>
+      <div class="token-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><input id="token-search" type="search" placeholder="Название или значение: control, #006cfd…" aria-label="Поиск токенов"></label><label class="sr-only" for="token-group">Группа токенов</label><select id="token-group"><option value="semantic">Семантические</option><option value="common">Базовая палитра</option><option value="gradients">Градиенты</option><option value="foundations">Размеры и интервалы</option><option value="legacy">Legacy</option><option value="all">Все токены</option></select><label class="sr-only" for="token-mode">Тема токенов</label><select id="token-mode"><option value="light">Светлая</option><option value="dark">Тёмная</option><option value="colored">Colored</option><option value="onOverlay">On overlay</option><option value="system">System / dark</option></select></div>
+      <p class="token-count caption" id="token-count" aria-live="polite"></p><div class="token-table-wrap"><table class="token-table"><thead><tr><th>Токен</th><th>Исходное значение</th><th>Результат</th><th><span class="sr-only">Копировать</span></th></tr></thead><tbody id="token-rows"></tbody></table></div><div class="empty-state" id="tokens-empty" hidden>Ничего не найдено. Попробуйте «text», «surface» или «blue».</div><button class="secondary-link load-more" id="tokens-more" hidden>Показать ещё</button>
+      <div class="subtle-note">Цвета и иконки: <code>@cian/ui-kit-design-tokens</code>. Размеры и типографика: <code>@cian/ui-kit</code>. В выгрузке сохранены происхождение, алиасы и все пять режимов. Legacy оставлен отдельно.</div>
+    </section>
+
+    <section id="icons"><div class="section-heading"><div><h2>Иконки</h2><p>Оригинальные SVG из design tokens. Нажмите на иконку, чтобы скопировать SVG.</p></div><span class="section-tag">12 · 16 · 24 · 40 px</span></div><label class="search-field icon-search"><span aria-hidden="true">⌕</span><input id="icon-search" type="search" placeholder="Поиск: Search, Close, Profile…" aria-label="Поиск иконок"></label><div class="icon-grid" id="icon-grid"></div><p class="caption" id="icon-count" aria-live="polite"></p><p class="caption">Экспортированы векторы с простой структурой. Остальные доступные React-иконки сохранены в исходниках.</p></section>
+
+    <section id="usage"><div class="section-heading"><div><h2>Как использовать в новых идеях</h2><p>Подключите основу и проектируйте изменение внутри привычного визуального языка.</p></div></div><div class="usage-grid"><div><h3>Подключение токенов</h3><p>CSS работает без React и сборщика. Начните с семантических имён: они сохраняют смысл в разных темах.</p><div class="code-panel"><button class="copy-button" data-copy-target="usage-code">Копировать</button><pre><code id="usage-code">&lt;link rel="stylesheet" href="cian/tokens/tokens.css"&gt;
+&lt;link rel="stylesheet" href="cian/tokens/foundations.css"&gt;
+
+.new-feature {
+  color: var(--text-primary-default);
+  background: var(--background-primary);
+  padding: var(--unit_6);
+}</code></pre></div></div><div class="design-guidance"><h3>Что делает интерфейс нативным</h3><ul><li>Используйте Lato и существующую шкалу текста: Body1 16/24, Body2 14/20.</li><li>Сохраняйте высоты контролов 36, 44 и 56 px и радиус 8 px.</li><li>Выбирайте цвет по роли: text, surface, control, stroke. У действия есть hover, pressed, focus и disabled.</li><li>Начинайте с привычных паттернов поиска и карточек. Новую функциональность добавляйте в их контекст.</li><li>Сверяйте макет с конкретной страницей: микрофронтенды могут использовать разные поколения компонентов.</li></ul></div></div><div class="subtle-note">Примеры JSX здесь описывают API обнаруженных компонентов. Установка приватного пакета не настроена: версия пакета и доступ к npm-реестру неизвестны.</div></section>
+
+    <section id="sources"><div class="section-heading"><div><h2>Исходники и метод</h2><p>Проверяемая основа для будущих обновлений, с датой и происхождением каждого файла.</p></div><a href="data/manifest.json" download>Манифест ↓</a></div><div class="source-summary" id="source-summary"></div><div class="source-explanation"><p>Снимок охватывает код, который попал в бандл главной страницы. Он включает компоненты, внутренние утилиты и CSS. Неиспользуемые экспорты могли быть удалены при сборке.</p><p>Названия props и параметры типографики прочитаны из исходников. Примеры интерфейса используют извлечённые CSS-классы; интерактивность справочника реализована отдельно. Точные версии UI kit и design tokens не опубликованы в этих файлах.</p></div><div class="source-links" id="source-links"></div><details class="source-browser"><summary>Исследовать исходники <span data-source-count></span></summary><label class="search-field"><span aria-hidden="true">⌕</span><input id="source-search" type="search" placeholder="Button, typography, semanticPalette…" aria-label="Поиск исходников"></label><div id="source-list"></div></details><p class="caption">Обновление снимка: <code>python3 cian/scripts/extract.py --fetch</code>. Скрипт использует закреплённые URL; новую сборку нужно выбрать явно.</p></section>
+    <footer class="page-footer">Собрано для подготовки продуктовых предложений <span>12 ноября 2026</span></footer>
+    <div class="error-banner" id="load-error" hidden role="alert"></div>
+    <noscript><p class="error-banner">Для интерактивного справочника нужен JavaScript. <a href="tokens/cian-design-tokens.zip">Скачать токены ZIP</a>.</p></noscript>
+  </main>
+  <dialog id="source-dialog" class="source-dialog" aria-labelledby="source-title"><div class="dialog-header"><div><span class="caption">Исходник из production source map</span><h2 id="source-title"></h2></div><button class="quiet-button" data-close-dialog="source-dialog" aria-label="Закрыть исходник">✕</button></div><div class="dialog-actions"><a id="source-map-link" target="_blank" rel="noreferrer">Открыть source map</a><button class="text-button" data-copy-target="source-code">Копировать код</button></div><pre><code id="source-code"></code></pre></dialog>
+  <dialog id="demo-dialog" class="demo-dialog" aria-labelledby="demo-dialog-title"><button class="dialog-close quiet-button" data-close-dialog="demo-dialog" aria-label="Закрыть пример">✕</button><h2 id="demo-dialog-title">Сохранить поиск</h2><p>В этом примере можно задать название поиска. Данные останутся только на странице.</p><form id="demo-form"><label for="saved-search-name">Название поиска</label><input id="saved-search-name" class="plain-input" value="Двухкомнатная рядом с метро" required maxlength="80"><div id="save-search-button"></div></form></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

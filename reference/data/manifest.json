@@ -1,0 +1,74 @@
+{
+  "snapshotDate": "2026-11-12",
+  "packageVersions": {
+    "@cian/ui-kit": null,
+    "@cian/ui-kit-design-tokens": null
+  },
+  "capturePage": "https://www.cian.ru/",
+  "fontFamilyObserved": "Lato, Arial, sans-serif",
+  "assets": [
+    {
+      "url": "https://static.cdn-cian.ru/frontend/frontend-mainpage/main.4d7747028aec9769.js.map",
+      "sha256": "5dcc42532133037827645f13529fbdd3bd8259a887332b0261af13672f396907",
+      "bytes": 7071841
+    },
+    {
+      "url": "https://static.cdn-cian.ru/frontend/frontend-mainpage/main.cfb081ae0c14cff3.css.map",
+      "sha256": "c2d40a5366c68bc6c29087bf0b3f5fc599db296c9baf0ba000bc083c53bfc829",
+      "bytes": 340123
+    },
+    {
+      "url": "https://static.cdn-cian.ru/frontend/frontend-mainpage/main.cfb081ae0c14cff3.css",
+      "sha256": "9a3b731dedf63bf45dcc32d4277062d4551bdf357c7156a231ead1dea33eb402",
+      "bytes": 292119
+    }
+  ],
+  "counts": {
+    "sourceFiles": 292,
+    "tokens": 526,
+    "semanticTokens": 211,
+    "icons": 24
+  },
+  "componentFamilies": [
+    "avatar",
+    "button",
+    "checkbox",
+    "image",
+    "input",
+    "inputAdornment",
+    "inputGroup",
+    "label",
+    "loader",
+    "modal",
+    "popover",
+    "radio",
+    "select",
+    "skeleton",
+    "tooltip",
+    "typography"
+  ],
+  "limitations": [
+    "Tree-shaken mainpage snapshot; not the full package.",
+    "Package versions are not exposed by these source maps.",
+    "Component demos reproduce DOM/CSS; they do not execute the original React components.",
+    "Icons with nested SVG structure are preserved in sources.json but not automatically exported.",
+    "Foundations come from @cian/ui-kit; color palettes and icon vectors come from @cian/ui-kit-design-tokens."
+  ],
+  "fontAssets": [
+    {
+      "url": "https://static.cdn-cian.ru/frontend/fonts/h/lato-regular.woff2",
+      "sha256": "2d2e5c10593eecdb68cd39434869d0173bb8cd7a2c61681ef03013e3daab098c",
+      "bytes": 33736
+    },
+    {
+      "url": "https://static.cdn-cian.ru/frontend/fonts/h/lato-semibold.woff2",
+      "sha256": "6a5dedb74003059332de56e776d27f725414bdfd9682af269378d840e115c51d",
+      "bytes": 34168
+    },
+    {
+      "url": "https://static.cdn-cian.ru/frontend/fonts/h/lato-bold.woff2",
+      "sha256": "09dc81693835ede658faf56f1265530088ce03425da042b7ff91677d4a7f8b9d",
+      "bytes": 33848
+    }
+  ]
+}
